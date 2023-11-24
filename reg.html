@@ -11,19 +11,20 @@
     <form>
         <label for="name">Имя пользователя</label>
         <br>
-        <input type="text" id="name" placeholder="от 1 до 20 латинских букв">
-        <p id="p"></p>
-        <br>
+        <input type="text" id="name" required placeholder="от 1 до 20 латинских букв">
+        <p id="p_name"></p>
         <label for="email">Email</label>
         <br>
-        <input type="email" id="email">
-        <br>
+        <input type="email" id="email" required>
+        <p id="p_email"></p>
         <label for="password">Пароль</label>
         <br>
-        <input type="password" id="password">
+        <input type="password" id="password" required name="password">
+        <p id="p_password"></p>
         <br><br>
         <input type="button" value="зарегистрироваться" id="button">
     </form>
+    
 
 
 
